@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{margin: 0;    
+  padding: 0;
+}
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Helper */
+
+.mtb-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pl-50{
+    padding-left: 50px;
+
+}
+
+/*End Helper */
+
+
+
+.row{
+    display: flex;
+ 
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+/* Second Section */
+
+.second-section input{
+    height: 50px;
+    width: 80px;
+}
+.second-section h2{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.second-section button{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+}
+#operators{
+    height: 20px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+/*End Second Section */
+

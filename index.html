@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+
+<body>
+
+    <h1 class="mtb-50 pl-50">My Calculator</h1>
+
+    <section class="first-section pl-50">
+        <div class="row">
+
+            <div class="col-4">
+                <h2>First Number</h2>
+            </div>
+            <div class="col-8">
+                <h2>Second Number</h2>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="second-section mtb-50 pl-50">
+        <div class="row">
+            <div class="col-2">
+                <input type="text" id="n1">
+            </div>
+            <div class="col-2">
+                <select id="operators">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="/">/</option>
+                    <option value="*">*</option>
+                </select>
+            </div>
+            <div class="col-2 ">
+                <input type="text" id="n2">
+            </div>
+            <div class="col-2">
+                <h2>=</h2>
+            </div>
+
+            <div class="col-2 ">
+                <input type="text" id="result">
+            </div>
+            <div class="col-2 ">
+                <button onclick="calc();">Calculate</button>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
