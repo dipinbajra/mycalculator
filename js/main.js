@@ -29,13 +29,17 @@ function reset(){
     
 }
 
-function hide() {
-    document.getElementById(textContent).style.display = '';
+function toggle() {
+        const visibility = document.getElementById("result").hidden;
+        if(visibility){
+            document.getElementById("result").hidden=false;
+            document.getElementById("toggle-btn").textContent='hide';
 
-    
-}
+        }else{
+            document.getElementById("result").hidden=true;
+            document.getElementById("toggle-btn").textContent='Show';
 
-function show() {
-document.getElementById(textContent).style.display = "";
+
+        }
     
 }
