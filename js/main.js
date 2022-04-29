@@ -28,3 +28,14 @@ function reset(){
     document.getElementById("result").textContent="";
     
 }
+
+function hide() {
+    document.getElementById(textContent).style.display = '';
+
+    
+}
+
+function show() {
+document.getElementById(textContent).style.display = "";
+    
+}
